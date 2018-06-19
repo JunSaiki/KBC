@@ -1,10 +1,11 @@
 // ArrayTest.cpp : コンソール アプリケーションのエントリ ポイントを定義します。
+// 2018.6.19
 //
 
 #include "stdafx.h"
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>		// printf,scanf などの関数用ヘッダファイル
+#include <stdlib.h>		// ユーティリティ関数用のヘッダファイル
 
 // main関数:ここから実行されます。
 void main(void)
@@ -36,4 +37,3 @@ void main(void)
 
 	printf("\n");		// 改行コードを標準出力へ出力
 }
-
