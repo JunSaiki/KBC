@@ -14,7 +14,7 @@ void main(void)
 	int hairetsu[10];	// これは配列 int型変数が10個
 
 	hensuu = 100;		// 変数にはひとつしか値が入らない
-	//hensuu = 10;		// こうすると中身は"10"になる。
+	//hensuu = 10;		// こうすると中身は上書きされ"10"になる。
 
 	printf("%d", hensuu);
 	printf("\n");		// 改行コードを標準出力へ出力
